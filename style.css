@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: DM Sans;
+}
+
+.section-three {
+  color: #f1fbfc;
+  background-color: #15473e;
+  width: Hug (1, 512px) px;
+  height: Hug (777px) px;
+  top: 1889px;
+  padding: 76px 120px 76px 120px;
+  gap: 10px;
+  opacity: 0px;
+  text-align: center;
+}
+
+.section-three .section-header {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46.87px;
+  text-align: center;
+}
+
+.section-three .section-wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 15px 0px;
+  gap: 50px;
+
+  /* flex-direction: column; */
+}
+
+.section-three .section-three-card {
+  width: 342px;
+  text-align: center;
+}
+
+.section-three .section-three-card .card-img img {
+  width: 187.15px;
+  height: 150px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section-three .section-three-card h2 {
+  font-family: DM Sans;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 33.85px;
+  text-align: center;
+}
+
+.section-three .section-three-card p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.04px;
+  text-align: center;
+  color: #ccece7;
+  width: 342px;
+  height: 78px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section-three .section-three-card a {
+  text-decoration: none;
+  width: Hug (204px) px;
+  height: Hug (66px) px;
+  padding: 20px 30px 20px 30px;
+  gap: 14px;
+  opacity: 0px;
+  color: #f1fbfc;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three .section-three-card a img {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section-three > a {
+  width: 121px;
+  height: Hug (66px) px;
+  padding: 20px 30px 20px 30px;
+  margin-top: 80px;
+  gap: 10px;
+  opacity: 0px;
+  background: #f8fced;
+  color: #15473e;
+  text-decoration: none;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three > a span {
+  /* width: 121px; */
+  height: 26px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.04px;
+  text-align: left;
+}
+
+.section-three > a img {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section-four {
+  width: Hug (1, 512px) px;
+  height: Hug (1, 243px) px;
+  padding: 94px 120px 94px 120px;
+  gap: 10px;
+  opacity: 0px;
+  background: #f3f9eb;
+}
+
+.section-four .text-above {
+  width: Fill (1, 272px) px;
+  height: Hug (94px) px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+}
+
+.section-four .text-above h2 {
+  width: 366px;
+  height: 94px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46.87px;
+  text-align: left;
+}
+
+.section-four .text-above p {
+  width: 375px;
+  height: 58px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.64px;
+  text-align: left;
+}
+
+.section-four .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 366px);
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
+.section-four .card-wrapper .card {
+  height: Hug (240px) px;
+  padding: 30px;
+  gap: 10px;
+  opacity: 0px;
+  color: #15473e;
+
+  background-color: #ffffff;
+}
+
+.section-four .card-wrapper .card p {
+  width: 306px;
+  height: 58px;
+  gap: 0px;
+  opacity: 0px;
+}
+.section-four .card-wrapper .card h2 {
+  width: 306px;
+  height: 34px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section-four .card-wrapper .card.card-B {
+  background: inherit;
+}
+
+.section-four .card-wrapper .card.card-B a {
+  text-decoration: none;
+  width: Hug (204px) px;
+  height: Hug (66px) px;
+  gap: 14px;
+  opacity: 0px;
+  color: #15473e;
+  display: flex;
+  justify-self: start;
+  justify-content: start;
+  align-items: center;
+}
+
+.section-five {
+  width: Hug (1, 512px) px;
+  height: Hug (675px) px;
+  top: 3915px;
+  padding: 80px 120px 80px 120px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.section-five .above {
+  width: Fill (1, 272px) px;
+  height: Hug (304px) px;
+  gap: 81px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-five .above .division-one a {
+  text-decoration: none;
+  width: Hug (204px) px;
+  height: Hug (66px) px;
+  padding: 20px 30px 20px 30px;
+  gap: 14px;
+  opacity: 0px;
+  color: #f1fbfc;
+  background-color: #15473e;
+  display: flex;
+  justify-self: start;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.section-five .below {
+  width: Fill (1, 272px) px;
+  height: Hug (91px) px;
+  gap: 286px;
+  opacity: 0px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-five .below > div {
+  width: Fixed (134px) px;
+  height: Hug (91px) px;
+  gap: 8px;
+  text-align: center;
+  opacity: 0px;
+}
+
+.section-five .below > div h2{
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52.08px;
+    text-align: center;
+}
+
+
